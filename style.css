@@ -1,0 +1,102 @@
+
+.top img{
+  width:320px;
+  height:80;
+}
+.menu {
+  overflow:hidden;
+  margin-left: auto;
+  margin-bottom: 3px;
+}
+.menu ul{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+.menu ul li{
+  width:323px;
+  float:left;
+  margin-right:1px;
+  text-align: center;
+}
+.menu ul li a{
+  display:block;
+  padding:16px;
+
+  background-color: #352b23;
+  color:white;
+  text-decoration: none;
+}
+.menu ul li.current a{
+  background-color:olive;
+}
+.menu ul li a:hover{
+  background-color:olive;
+}
+header{
+  width:900px;
+  height:auto;
+  position:relative;
+}
+header p.message{
+  color:white;
+  position: absolute;
+  top:0px;
+  left:0px;
+  font-size:60px;
+}
+.main-profile{
+    display:  inline-block;
+}
+div.contents{
+  width:900px;
+  height:auto;
+}
+div.contents img{
+    height:200px;
+    width:250px;
+    margin-right:10px;
+}
+.profile-content{
+  width:600px;
+  height:auto;
+}
+.twitter-timeline{
+  data-height:200px;
+}
+div.cook{
+  width:900px;
+  margin-bottom:50px;
+}
+
+div.cook-left img{
+  display: inline-block;
+
+}
+div.cook-content{
+  display: inline-block;
+  margin-left:40px
+  margin-right:20px
+}
+div.cook-content{
+  height:200px;
+  width:600px;
+}
+div.cook h2{
+  margin-bottom: 5px;
+}
+div.cook h3{
+  margin-bottom:2px;
+}
+.cook img{
+  border-radius: 20px;
+}
+.table{
+  border: none;
+}
+.table td{
+  border: solid 1px black;
+}
+.table th{
+  border: solid 1px black;
+}
